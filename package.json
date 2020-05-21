@@ -1,0 +1,33 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShantelB/Recipes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShantelB/Recipes/issues"
+  },
+  "homepage": "https://github.com/ShantelB/Recipes#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "gsap": "^3.2.6",
+    "parcel-bundler": "^1.12.4",
+    "react-loader-spinner": "^3.1.14",
+    "react-redux": "^7.2.0",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  }
+}
