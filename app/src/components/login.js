@@ -108,6 +108,7 @@ function Login(props) {
               </CardSubtitle>
 
               <CardSubtitle className="password">
+                  {/* .... */}
               <label htmlFor="password">Password {error.password.length > 0 ? <p className="error">{error.password}</p> : null}</label>
               <input id="password" type="password" name="password" onChange={finalValidation} placeholder="password" value= {loginName.password} />
                 </CardSubtitle>
