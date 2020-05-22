@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+h2, h1 {
+  font-family: ‘Poppins’, sans-serif;
+  color:#EAE7DC;
+} 
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -14,14 +23,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #8E8D8A;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #EAE7DC;
+  font-family: ‘Poppins’, sans-serif;
 }
 
 .App-link {
@@ -35,4 +44,157 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.cards {
+  background-image: url(../src/images/chicken-dish.jpg);
+  background-repeat: no-repeat;
+  background-size: 60vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 79.5vh;
+}
+
+.body {
+  background-color: #E85A4F;
+  align-items: center;
+  width: 40vw;
+  height: 79.5vh;
+}
+
+input {
+  height: 3vh; 
+}
+
+.password {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 4vh;
+}
+
+.name {
+  margin-left: 6%;
+  font-size: 4vh;
+}
+
+button {
+  font-size: 3.5vh;
+  margin-top: 2%;
+  background-color: #8E8D8A;
+  color: #EAE7DC;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #EAE7DC;
+  color: #8E8D8A;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30vw;
+ 
+}
+
+.link {
+  color: #EAE7DC;
+  padding-bottom:2%;
+  font-size: 4vh;
+  font-family: ‘Poppins’, sans-serif; 
+  text-decoration: none;
+}
+.link:hover {
+  color: #E85A4F;
+}
+
+.cooking {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Recipe-List {
+  background-image: url(../src/images/mixbowl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  height: 100vmin;
+}
+
+.Recipe-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.recipeCard {
+  background-color: #E85A4F;
+}
+
+label {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #EAE7DC;
+  font-family: ‘Poppins’, sans-serif;
+  font-size: 3vh;
+}
+
+.category {
+  padding-bottom: 1%;
+}
+
+#category {
+  width: 11vw;
+  height: 4vh;
+}
+
+.Registration-cards {
+  background-image: url(../src/images/four-meals.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 79.5vh;
+}
+
+.Registration-body {
+  background-color: #E85A4F;
+  align-items: center;
+  width: 40vw;
+  height: 79.5vh;
+}
+
+.email {
+  margin-left: 8%;
+  font-size: 4vh;
+}
+
+.terms {
+  padding-bottom: 2%;
+  font-size: 3vh;
+}
+
+.addRecipe {
+  background-image: url(../src/images/soup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.category {
+  font-size: 3vh;
+}
+
+option {
+  font-size: 3vh;
+}
+
+.error {
+  color: #EAE7DC;
+  font-size: 2vh;
 }
