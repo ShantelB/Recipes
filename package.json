@@ -19,7 +19,7 @@
   "homepage": "https://github.com/ShantelB/Recipes#readme",
   "dependencies": {
     "D": "^1.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "gsap": "^3.2.6",
     "parcel-bundler": "^1.12.4",
